@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/index.scss"
 
 function Button({bgc}){
     return(
-      <button style={{backgroundColor: bgc ,color: "white", fontSize:"30px"}} 
+      <button style={{backgroundColor: bgc ,color: "white"}} 
       onClick={() =>{
         alert(`${bgc} is cliked`)
       }}
