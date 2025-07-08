@@ -1,0 +1,67 @@
+.job-holder{
+    width: 100%;
+      margin: 100px;
+}
+
+.recommend {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.job{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:60px;
+    
+}
+
+.j1{
+    background-color: rgb(245, 248, 250);
+    width: 318px;
+    height: 354px;
+    text-align: center;
+    padding:5px;
+
+    img{
+        margin-top: 30%;
+    }
+    .goo{
+        width: 60px;
+        height: 60px;
+    }
+    button{
+        width: fit-content;
+        border-radius: 25px;
+        float: right;
+        border: 0px;
+        background-color: rgb(224, 255, 218);
+        padding:5px;
+        color:rgb(122, 123, 124);
+    }
+
+    p{
+        font-weight: bold;
+        
+    }
+    .apply{
+        width: 100%;
+        text-align: left;
+        margin-top: 40px;
+        padding-top: 10px;
+        border-top: solid thin rgb(155, 184, 156);
+
+        span{
+            margin-left: 30px;
+            font-weight: 100;
+
+        }
+
+        button{
+            color: green;
+            background-color:rgb(230, 253, 226) ;
+        }
+    }
+}
+

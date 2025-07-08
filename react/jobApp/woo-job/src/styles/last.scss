@@ -1,0 +1,21 @@
+.covers{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    gap: 50px;
+    padding-top: 30px;
+    border-top: thin solid gray;
+
+    div{
+        width: 300px;
+        height: auto;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .information{
+        .info{
+            font-weight: bold;
+        }
+    }
+}

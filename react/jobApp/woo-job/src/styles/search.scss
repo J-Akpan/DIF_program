@@ -1,0 +1,62 @@
+.search {
+    display: flex;
+    margin: 20px 100px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    // justify-content: center;
+    
+
+    .textfield{
+        padding: 5px;
+        background-color: rgb(230, 235, 231);
+        border: 0px;
+        border-bottom-left-radius: 12%;
+        
+        border-top-left-radius: 10%;
+        font-size: 14px;
+        width: 260px;
+        height: auto;
+        text-align: center;
+    }
+
+    .map{
+        background-color: rgb(230, 235, 231);
+        border-left: solid thin rgb(197, 196, 195);
+        border-right: solid thin rgb(197, 196, 195);
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+
+    .location{
+        padding: 5px;
+        background-color: rgb(230, 235, 231);
+        border: 0px;
+        font-size: 14px;
+        width: 130px;
+        height: auto;
+        text-align: center;
+
+    }
+
+
+    
+    .search-icon{
+        background-color: green;
+        width: auto;
+        height: auto;
+        padding:5px;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+      
+        border: 0px;
+
+        img{
+            width: 24px;
+            height: 25px;
+            // font
+        }
+    }
+
+
+}
