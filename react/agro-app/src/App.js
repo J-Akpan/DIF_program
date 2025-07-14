@@ -29,6 +29,8 @@ export default function App(){
         <Product />
       </section>
       <section className="white-area">sdfgsfgfg</section>
+      <section className="white-area">sdfgsfgfg</section>
+      <section className="white-area">sdfgsfgfg</section>
       <section className="feedbacks">sdfgsfgfg</section>
       <section className="footers">sdfgsfgfg</section>
 
