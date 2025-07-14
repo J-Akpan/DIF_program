@@ -1,0 +1,50 @@
+$bg: url('../assets/photos/bg.png');
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: left;
+    background-image: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+   
+}
+
+.banner-content{
+    color: white;
+    margin-left: 200px;
+    color: white;
+}
+
+.healthy{
+    border-radius: 30px;
+    padding:10px;
+    border: thin white solid;
+    width: fit-content;
+}
+
+.respect{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gain{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 60px;
+    font-weight: bold;
+    
+
+}
+.contact{
+    padding: 5px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: 16px;
+    width: 130px;
+    border: 0px;
+}

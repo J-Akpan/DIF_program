@@ -1,0 +1,16 @@
+.product-container{
+    display: flex;
+    flex-direction: row;
+    // margin: auto auto auto auto;
+    justify-content: space-around;
+    gap: 50px;
+    height: 400px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    section{
+        width: 96%;
+        height: auto;
+        }
+   
+}
+

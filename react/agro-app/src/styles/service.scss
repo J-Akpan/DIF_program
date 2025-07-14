@@ -1,0 +1,36 @@
+.des{
+    display:flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+    gap:40px;
+    border-bottom: thin solid rgb(248, 238, 238);
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+
+    div{
+        width: 300px;
+        height:auto;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img{
+            width: 90px;
+            height: 90px;
+        }
+
+        p{
+            margin-left: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 14px;
+
+            span{
+                font-size: 24px;
+            }
+        }
+    }
+}
+
