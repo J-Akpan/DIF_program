@@ -1,0 +1,72 @@
+.text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 82%;
+    margin: auto auto;
+    margin-top: 80px;
+    flex: 1;
+    align-items: center;
+
+}
+.couple{
+    width: 600px;
+    height: 600px;
+}
+.joy{
+    flex: 1;
+    text-align: left;
+}
+
+.abouts{
+    font-size: 12;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.agric{
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.many-text{
+    width: 600px;
+    height: auto;
+
+
+}
+.listing{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+
+
+    .li{
+        list-style:inside;
+    }
+
+    ul li::marker{
+        color: rgb(211, 211, 31);
+        font-size: 30px;
+        background-color:rgb(211, 211, 31) ;
+    }
+
+    ul{
+        text-align: left;
+        padding: 0px;
+        flex: 1;
+    }
+}
+.butt{
+    padding: 9px;
+    text-align: center;
+    background-color: rgba(92, 153, 52, 0.897);
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    border: none;
+
+}

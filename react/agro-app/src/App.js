@@ -4,6 +4,8 @@ import Nav from "./components/Nav"
 import Banner from "./components/Banner"
 import Service from "./components/Service"
 import Product from "./components/Product";
+import Text from "./components/Text"
+import Footer from "./components/Footer"
 
 import "./styles/service.scss"
 
@@ -28,11 +30,18 @@ export default function App(){
       <section className="green-area">
         <Product />
       </section>
+
+      <section className="white-area">
+        <Text />
+      </section>
+      
+      {/* <section className="white-area">sdfgsfgfg</section>
       <section className="white-area">sdfgsfgfg</section>
-      <section className="white-area">sdfgsfgfg</section>
-      <section className="white-area">sdfgsfgfg</section>
-      <section className="feedbacks">sdfgsfgfg</section>
-      <section className="footers">sdfgsfgfg</section>
+      <section className="feedbacks">sdfgsfgfg</section> */}
+      
+      <section className="footers">
+        <Footer />
+      </section>
 
     </div>
   ) 

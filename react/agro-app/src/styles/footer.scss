@@ -1,0 +1,133 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    padding-bottom: 20px;
+    // width: 82%;
+}
+
+.footer-item1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(189, 189, 30);
+    height: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 110px;
+
+        li{
+            margin: 20px;
+            font-size: 14;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        }
+
+        
+    }
+
+    ul li::marker{
+        color: rgb(255, 255, 255);
+    }
+
+    .farmer{
+        list-style: none;
+    }
+
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around ;
+        margin-left: 750px;
+
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            img{
+                height: 40px;
+                width: 40px;
+            }
+
+            p{
+                margin: 20px;
+            }
+        }
+    }
+}
+
+.footer-item2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+
+    .item1{
+        flex: 1;
+        text-align: left;
+        margin-left: 150px;
+
+    }
+
+    .item2{
+        display: flex;
+        flex-direction: column;
+        flex: 4;
+        text-align: left;
+        
+
+        .prof{
+            font-family: Arial, sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            width: 600px;
+            margin-left: 400px;
+        }
+
+
+    }
+
+
+    .diff-sec{
+        display: flex;
+        flex-direction: row;
+        margin-left: 360px;
+        border-bottom: thin solid rgb(222, 224, 222);
+        height: auto;
+        padding-bottom: 10px;
+        width: fit-content;
+
+        x0{
+            margin-left: 20px;
+        }
+
+        div{
+            flex: 1;
+            text-align: left;
+            // margin-left: 20px;
+
+            ul li{
+                list-style: none;
+                text-align: left;
+                
+            }
+
+            p{
+                font-weight: bold;
+                margin: 40px;
+            }
+        }
+
+        .x1{
+            margin-left: 20px;
+        }
+         
+    }
+}
+
+
