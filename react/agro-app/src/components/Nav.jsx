@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/nav.scss"
 import logo from "../assets/photos/logo.png" 
 import call from "../assets/photos/caller.png"
+import { Link } from "react-router-dom";
 
 export default function Nav(){
     return(
@@ -10,12 +11,12 @@ export default function Nav(){
             <img className="logo" src={logo} alt="" />
 
             <div className="menu">
-                <div>Home</div>
-                <div>Page</div>
-                <div>Services</div>
-                <div>Portfolio</div>
-                <div>Blog</div>
-                <div>contact Us</div>
+                <div> <Link to="/">Home</Link> </div>
+                <div> <Link to= "/about">About</Link></div>
+                <div><Link to= "/about">Services</Link></div>
+                <div><Link to= "/about">Portfolio</Link></div>
+                <div><Link to= "/about">Blog</Link></div>
+                <div><Link to= "/contact">Contact Us</Link></div>
             </div>
 
 
