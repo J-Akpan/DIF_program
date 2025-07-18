@@ -8,6 +8,7 @@ import Text from "../components/Text"
 import Footer from "../components/Footer"
 
 import "../styles/service.scss"
+import axios from "axios";
 
 export default function Contact(){
   return(
