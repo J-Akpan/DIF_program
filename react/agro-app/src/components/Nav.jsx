@@ -11,12 +11,12 @@ export default function Nav(){
             <img className="logo" src={logo} alt="" />
 
             <div className="menu">
-                <div> <Link to="/">Home</Link> </div>
-                <div> <Link to= "/about">About</Link></div>
-                <div><Link to= "/about">Services</Link></div>
-                <div><Link to= "/about">Portfolio</Link></div>
-                <div><Link to= "/about">Blog</Link></div>
-                <div><Link to= "/contact">Contact Us</Link></div>
+                <div> <Link className="links" to="/">Home</Link> </div>
+                <div> <Link className="links" to= "/about">About</Link></div>
+                <div><Link className="links" to= "/about">Services</Link></div>
+                <div><Link className="links" to= "/about">Portfolio</Link></div>
+                <div><Link className="links" to= "/about">Blog</Link></div>
+                <div><Link className="links" to= "/contact">Contact Us</Link></div>
             </div>
 
 

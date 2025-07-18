@@ -54,3 +54,13 @@
     border-radius: 25px;
     border: none;
 }
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    :hover{
+        color: rgb(255, 232, 30);
+    }
+}
