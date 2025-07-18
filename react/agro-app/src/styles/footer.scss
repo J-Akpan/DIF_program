@@ -130,4 +130,122 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .footer-item1{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: auto;
+        width: 100%;
+
+        ul{
+            margin: 0px auto;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+        }
+
+        .social{
+            margin-left: 0;
+            justify-content: center;
+        }
+    }
+
+    .footer-item2{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .item1{
+            margin-left: 0;
+            text-align: center;
+            width: 100%;
+
+            p{
+                font-size: 1.2em;
+                margin:auto auto;
+                padding: 10px;
+                width: 90%;
+
+            }
+        }
+
+        .item2{
+            margin-left: 0;
+            text-align: center;
+            width: 100%;
+
+            .prof{
+                width: 100%;
+                margin-left: 0;
+                text-align: center;
+
+                p{
+                    font-size: 1em;
+                    margin: auto auto;
+                    width: 90%;
+                }
+            }
+        }
+
+        .diff-sec{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            justify-items: center;
+            text-align: center;
+            margin: 40px auto;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                text-align: center;
+                margin-left: auto auto;
+                width: 100%;
+                justify-items: center;
+            }
+
+            .x0{
+                margin-left: 0;
+                width: 100%;
+                text-align: center;
+
+                p{
+                    margin: 20px auto;
+                    width: 100%;
+                }
+                ul{
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+            .x1{
+                margin-left: 0;
+                width: 100%;
+                text-align: center;
+                p{
+                    margin: 20px auto;
+                    width: 100%;
+                }
+                ul{
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+
+        }
+    }
+    
+}
 

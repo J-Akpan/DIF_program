@@ -70,3 +70,55 @@
     border: none;
 
 }
+
+@media screen and (max-width: 768px) {
+    .text-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .couple{
+        width: 100%;
+        height: auto;
+    }
+    .joy{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .about-holder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+    }
+    .abouts{
+        font-size: 14px;
+    }
+    .agric{
+        font-size: 1.5em;
+    }
+    .many-text{
+        width: 90%;
+        text-align: center;
+    }
+    .listing{
+        flex-direction: column;
+        align-items: center;
+    }
+    // .listing ul{
+    //     text-align: center;
+    //     padding: 0;
+    // }
+    // .listing ul li{
+    //     margin: 5px 0;
+    // }
+    .butt{
+        width: fit-content;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+}

@@ -63,8 +63,7 @@ export default function Footer() {
 
             <div className="x1">
               <p>Our Address</p>
-              <p>Old Westbury 256, New York
-11201, United States</p>
+              <p>Old Westbury 256, New York 11201, United States</p>
             </div>
           </div>
         </div>

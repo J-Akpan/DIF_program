@@ -11,8 +11,8 @@ export default function Text() {
       </div>
 
       <div className="joy">
-        <div>
-            <p className="abouts">About Us</p> 
+        <div className="about-holder"> 
+          <p className="abouts">About Us</p> 
           <p className="agric"> We’re Best Agriculture & <br />Organic Farms</p>
           <p className="many-text">
             There are many variations of passages of Lorem Ipsum available, but
