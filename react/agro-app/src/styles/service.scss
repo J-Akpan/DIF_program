@@ -34,3 +34,27 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .des{
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .des div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .des div img{
+        margin-bottom: 10px;
+    }
+
+    .des div p{
+        font-size: 16px;
+    }
+    
+}
